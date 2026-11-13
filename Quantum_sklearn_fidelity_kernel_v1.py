@@ -18,9 +18,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -274,17 +274,17 @@ Metoda: Quantum Sklearn Spline-Nystroem Fidelity Kernel (1x6 qubita, ZZ Feature 
 CSV: loto7_4718_k90.csv
 Validacija NLL (alpha=1.5): 25.6700
 Test NLL: 25.6807
-NEXT: [5, 11, 19, 23, 24, 29, 34]
+NEXT: [5, x, 19, y, 24, z, 34]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (alpha=1.5): 25.7304
 Test NLL: 25.7026
-NEXT: [8, 11, 16, 17, 19, 22, 32]
+NEXT: [8, x, 16, y, 19, z, 32]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (alpha=1.5): 25.7236
 Test NLL: 25.7686
-NEXT: [7, 14, 18, 24, 29, 33, 34]
+NEXT: [7, x, 18, y, 29, z, 34]
 """
 
 
